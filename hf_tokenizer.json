@@ -1,0 +1,256 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<unk>": 0,
+      ",": 1,
+      ".": 2,
+      "a": 3,
+      "b": 4,
+      "c": 5,
+      "d": 6,
+      "e": 7,
+      "f": 8,
+      "g": 9,
+      "h": 10,
+      "i": 11,
+      "k": 12,
+      "l": 13,
+      "m": 14,
+      "n": 15,
+      "o": 16,
+      "p": 17,
+      "q": 18,
+      "r": 19,
+      "s": 20,
+      "t": 21,
+      "u": 22,
+      "w": 23,
+      "y": 24,
+      "it": 25,
+      "is": 26,
+      "th": 27,
+      "the": 28,
+      "an": 29,
+      "al": 30,
+      "in": 31,
+      "ital": 32,
+      "ap": 33,
+      "cap": 34,
+      "capital": 35,
+      "of": 36,
+      "or": 37,
+      "on": 38,
+      "and": 39,
+      "ar": 40,
+      "un": 41,
+      "ur": 42,
+      "ac": 43,
+      "ed": 44,
+      "en": 45,
+      "no": 46,
+      "es": 47,
+      "ma": 48,
+      "as": 49,
+      "eac": 50,
+      "ri": 51,
+      "ited": 52,
+      "united": 53,
+      "each": 54,
+      "eur": 55,
+      "op": 56,
+      "europ": 57,
+      "europe": 58,
+      "se": 59,
+      "wn": 60,
+      "these": 61,
+      "not": 62,
+      "mad": 63
+    },
+    "merges": [
+      [
+        "i",
+        "t"
+      ],
+      [
+        "i",
+        "s"
+      ],
+      [
+        "t",
+        "h"
+      ],
+      [
+        "th",
+        "e"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "it",
+        "al"
+      ],
+      [
+        "a",
+        "p"
+      ],
+      [
+        "c",
+        "ap"
+      ],
+      [
+        "cap",
+        "ital"
+      ],
+      [
+        "o",
+        "f"
+      ],
+      [
+        "o",
+        "r"
+      ],
+      [
+        "o",
+        "n"
+      ],
+      [
+        "an",
+        "d"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "u",
+        "r"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "e",
+        "d"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "n",
+        "o"
+      ],
+      [
+        "e",
+        "s"
+      ],
+      [
+        "m",
+        "a"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "e",
+        "ac"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "it",
+        "ed"
+      ],
+      [
+        "un",
+        "ited"
+      ],
+      [
+        "eac",
+        "h"
+      ],
+      [
+        "e",
+        "ur"
+      ],
+      [
+        "o",
+        "p"
+      ],
+      [
+        "eur",
+        "op"
+      ],
+      [
+        "europ",
+        "e"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "w",
+        "n"
+      ],
+      [
+        "the",
+        "se"
+      ],
+      [
+        "no",
+        "t"
+      ],
+      [
+        "ma",
+        "d"
+      ]
+    ]
+  }
+}
