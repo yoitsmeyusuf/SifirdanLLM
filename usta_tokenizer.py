@@ -1,8 +1,10 @@
 
 import json
 
+import torch
+
 # Subword tokenizer 
-class Tokenizer:
+class UstaTokenizer:
     def __init__(self, vocab_file):
         self.vocab = self.load_vocab(vocab_file)
         self.reverse_vocab = {id: word for word, id in self.vocab.items()}
@@ -35,7 +37,14 @@ class Tokenizer:
             Tokens.append(self.vocab[" "])  # End of word token
             
         Tokens.pop()  # Remove the last added end-of-word token    
-        return Tokens
+        return torch.tensor(Tokens)
+
+
+    def tokenize(self, text):
+        token_ids = self.encode(text)
+        # token_ids from tensor to list
+        token_ids = token_ids.detach().numpy().tolist()
+        return [self.reverse_vocab[id] for id in token_ids]
 
     def decode(self, token_ids):
         text = ""
