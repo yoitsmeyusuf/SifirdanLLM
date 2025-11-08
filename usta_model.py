@@ -56,6 +56,6 @@ class UstaModel(nn.Module):
 
     x = self.get_pos(x) # meaning of the tokens in the sentence according to their position
 
-    x = self.self_attention(x)
+    x = self.self_attention(x) # contextual meaning of the tokens in the sentence
 
     return x
